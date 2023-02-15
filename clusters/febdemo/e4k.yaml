@@ -3,6 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmChart
 metadata:
   name: e4k
+  namespace: e4k
 spec:
   interval: 5m0s
   chart: az-e4k
